@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dr_perfil"
+            android:checked="false"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/perfil_string" />
+
+        <item
+            android:id="@+id/dr_cerca"
+            android:checked="false"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="@string/cerca_string" />
+
+
+        <item
+            android:id="@+id/dr_cupones"
+            android:checked="false"
+            android:title="Cupones"
+            android:icon="@drawable/coupons"/>
+
+
+    </group>
+</menu><!-- From: file:/C:/Users/lenovo/AndroidStudioProjects/FoodTruckerVersionFinal/FoodTrucker5.0/app/src/main/res/menu/drawer.xml -->
